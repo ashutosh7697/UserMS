@@ -26,7 +26,7 @@ import com.infosys.UserMS.service.SellerService;
 
 @RestController
 @CrossOrigin
-@RequestMapping(value="api/seller")
+@RequestMapping(value="/api/seller")
 public class SellerController {
 	
 	@Autowired

@@ -29,7 +29,7 @@ import com.infosys.UserMS.service.CartService;
 
 @RestController
 @CrossOrigin
-@RequestMapping(value="api/cart")
+@RequestMapping(value="/api/cart")
 public class CartController {
 	
 	@Autowired

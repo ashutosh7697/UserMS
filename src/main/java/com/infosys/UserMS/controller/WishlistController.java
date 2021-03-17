@@ -27,7 +27,7 @@ import com.infosys.UserMS.service.WishlistService;
 
 @RestController
 @CrossOrigin
-@RequestMapping(value="api/wishlist")
+@RequestMapping(value="/api/wishlist")
 public class WishlistController {
 	@Autowired
 	WishlistService wishServ;
